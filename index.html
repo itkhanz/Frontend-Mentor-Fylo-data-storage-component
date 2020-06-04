@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">  
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Frontend Mentor | Fylo data storage component</title>
+</head>
+<body>
+
+	<main>
+    <div class="section-main">
+      <div class="fylo-container">
+        <div class="fylo-header">
+          <a href="" class="logo"><img src="./images/logo.svg" class="logo-img" alt="website-logo"></a>
+          <!-- <p>Fylo</p> -->
+        </div>
+        <div class="fylo-body">
+          <ul class="list-item-group">
+            <li class="list-item"><img src="./images/icon-document.svg" class="icon"></li>
+            <li class="list-item"><img src="./images/icon-folder.svg" class="icon"></li>
+            <li class="list-item"><img src="./images/icon-upload.svg" class="icon"></li>
+          </ul>	
+        </div>
+      </div>
+      <div class="data-container">
+        <div class="data-main">
+          <p class="data-info">You've used <span id="data-info-value">815 GB</span> of your storage</p>
+          <div class="outer-bar">
+            <div class="inner-bar">
+              <div class="bar-circle"></div>
+            </div>
+          </div>
+          <div class="data-limit">
+            <div class="min">0 GB</div>
+            <div class="max">1000 GB</div>
+          </div>
+        </div>
+        <div class="data-popup">
+          <div class="data-box">
+            <span class="data-value">185</span>
+            <span class="data-text"> GB LEFT</span>
+          </div>
+          <div class="triangle-left"></div>
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Ibtisam Tanveer Khan</a>.
+    </div>
+  </main>
+</body>
+</html>
